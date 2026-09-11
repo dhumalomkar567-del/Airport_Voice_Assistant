@@ -34,21 +34,21 @@ st.divider()
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.subheader("🎙️ Live Kiosk")
+    st.subheader(" Live Kiosk")
     st.write(
         "Real-time voice interaction: record a question, get an instant "
         "spoken + text answer."
     )
 
 with col2:
-    st.subheader("📁 Batch Process")
+    st.subheader(" Batch Process")
     st.write(
         "Upload multiple recorded audio files at once and process them "
         "together — useful for reviewing recorded kiosk sessions."
     )
 
 with col3:
-    st.subheader("📊 Admin Dashboard")
+    st.subheader(" Admin Dashboard")
     st.write(
         "View usage analytics: total queries, common intents, languages, "
         "and success rate."
